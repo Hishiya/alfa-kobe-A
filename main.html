@@ -34,10 +34,11 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1(倉庫部屋)</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
-  
+            <p class="text-center">警告メッセージが消えると、そこが倉庫部屋であることに気づいた。<br>
+              扉は内鍵で閉まっている。どうやら友人３人、モブキャラ２人と閉じ込められているらしい。<br>
+              机には奇妙な内容の紙が置かれていた。</p>
+            <p class="text-center">紙に書かれている謎を解き、キーワード欄に入力しよう。<br>
+              困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
             <div class="container">
               <figure class="image__container">
                 <img src="assets/images/stage1.png" alt="巨→□→魚 綿←□→工 の 押→□→図 塗→□→本" title="右下の漢字は「本」">
@@ -59,7 +60,7 @@ Youtube貼り付けここまで -->
         <!-- STAGE1解答入力セクション　ここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：1(倉庫部屋)</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：1(倉庫部屋)</span>紙に書かれていた謎の答えを入力</h2>
             <!------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
               v-bind:correct="correctAnswer['stage1']['q1']" は正解の解答を指します。
@@ -85,9 +86,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１(倉庫部屋)  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">色褪せた木の絵の裏を覗いてみると、鍵が張り付けられていた！<br>
+                どうやらその鍵は倉庫部屋の内鍵だったようで、<br>
+                部屋を脱出できた！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -106,10 +107,17 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>モブを助けろ！</h2>
+              <p class="text-center">倉庫部屋から脱出すると、そこは大広間だった。<br>
+                突然また、ハッカーの警告メッセージが送られてきた。</p>
+                <div class="story__note__outer bg-color--gray">
+                  <ul class="story__note">言い忘れていたが、制限時間以内に全ての謎を解けなければ、お前達はこうなるよ😀</ul>
+                </div>
+                <p class="text-center">そう言うと、モブキャラの1体が目の前で怪物に食われた。<br>
+                  主人公達は驚愕しながらも、友人の1人がある部屋から音がするのに気づいた。<br>
+                  そこでふと、主人公達はモブキャラが1人足りないことに気づいた。<br>
+                  どうやら誰かが助けを求めているようだ。<br>
+                  なんとか部屋に入る方法を探し出し助けよう。</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
