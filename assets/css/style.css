@@ -18,7 +18,7 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "角ゴシック体", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "明朝体", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   font-size: 18px;
   line-height: 1.77778;
   font-weight: bold;
@@ -245,11 +245,11 @@ button {
 }
 
 .bg-color--subcolor {
-  background-color: #708090;
+  background-color: #d9e021;
 }
 
 .bg-color--gray {
-  background-color: #800000;
+  background-color: #e6e6e6;
 }
 
 .bgcolor--dark {
@@ -279,7 +279,7 @@ button {
   line-height: 1.75;
   text-align: center;
   padding: 9px 20px;
-  background-color: #708090;
+  background-color: #d9e021;
   margin: 0 -20px 20px -20px;
 }
 
