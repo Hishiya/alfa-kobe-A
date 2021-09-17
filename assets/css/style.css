@@ -245,14 +245,14 @@ button {
 }
 
 .bg-color--subcolor {
-  background-color: #708090;
+  background-color: #5b6c7c;
 }
 
 .bg-color--gray {
   background-color: #1e013f;
 }
 
-.bgcolor--dark {
+.bg-color--dark {
   background-color: #2F2725;
 }
 
@@ -316,7 +316,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #00c99d;
 }
 
 .section-title--border::after {
